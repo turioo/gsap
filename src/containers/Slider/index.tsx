@@ -47,6 +47,7 @@ export const Slider = () => {
     }
     const setAnimation = () => {
         let timeline = gsap.timeline({
+                repeat: -1,
                 scrollTrigger: {
                     trigger: scroll.current,
                     scrub: true,

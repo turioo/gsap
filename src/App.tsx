@@ -4,6 +4,7 @@ import './App.css';
 import {Slider} from "./containers/Slider";
 import {Cube} from "./containers/Cube";
 import {Charts} from "./containers/Charts";
+import {Move} from "./containers/Move";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <Route path="/" exact component={Slider} />
             <Route path="/cube" component={Cube} />
             <Route path="/charts" component={Charts} />
+            <Route path="/move" component={Move} />
             <Redirect to="/" />
           </Switch>
       </BrowserRouter>
