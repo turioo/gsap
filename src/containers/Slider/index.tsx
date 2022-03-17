@@ -50,8 +50,8 @@ export const Slider = () => {
                 repeat: -1,
                 scrollTrigger: {
                     trigger: scroll.current,
-                    scrub: true,
-                    markers: true,
+                    scrub: false,
+                    markers: false,
                     start: "top top",
                     end: 'bottom bottom',
                 },
