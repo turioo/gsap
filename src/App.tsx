@@ -5,6 +5,7 @@ import {Slider} from "./containers/Slider";
 import {Cube} from "./containers/Cube";
 import {Charts} from "./containers/Charts";
 import {Move} from "./containers/Move";
+import {Stress} from "./containers/Stress";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/cube" component={Cube} />
             <Route path="/charts" component={Charts} />
             <Route path="/move" component={Move} />
+            <Route path="/stress" component={Stress} />
             <Redirect to="/" />
           </Switch>
       </BrowserRouter>
